@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Pacifico&family=Poppins:wght@200;400;500;600;700&display=swap"
+    rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <title>E-commerce product page</title>
+</head>
+
+<body>
+  <div class="main-content">
+    <header class="container">
+      <img src="images/icon-menu.svg" alt="" class="menu">
+      <nav class="for-mobile">
+        <div class="logo-container">
+          ForKids
+        </div>
+        <ul>
+          <img src="images/icon-close.svg" alt="close-icon" class="close close-mobile">
+          <li> <a href="#">collections</a></li>
+          <li><a href="#" class="active">Girls</a></li>
+          <li><a href="#">Boys</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="right-nav">
+          <div class="svg-container">
+            <img src="images/icon-cart.svg" alt="cart-icon" class="cart-icon">
+            <div class="cart-products"></div>
+            <div class="cart-content" id="cart">
+              <img src="images/icon-close.svg" alt="close-icon" class="close">
+              <div class="cart-title">
+                <h3>Cart</h3>
+              </div>
+              <hr>
+              <div class="content">
+                <div class="cart-info">
+                  <img src="" alt="">
+                  <div class="product-details">
+                    <p>The Cart is Empty</p>
+                    <h4></h4>
+                    <span></span>
+                  </div>
+                </div>
+                <img src="images/icon-delete.svg" alt="delete-icon" class="delete-icon">
+                <input type="button" value="Checkout" class="check">
+              </div>
+            </div>
+          </div>
+          <div class="avatar">
+            <img src="images/234839.jpg" alt="">
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container">
+      <div class="left">
+        <div class="main-image">
+          <img src="images/photo1.jpg" alt="main-image">
+        </div>
+        <div class="second-image">
+          <img src="images/photo1.jpg" alt="image1" class="active">
+          <img src="images/photo2.jpg" alt="image2">
+          <img src="images/photo3.jpg" alt="image3">
+          <img src="images/photo_4.jpg" alt="image4">
+        </div>
+      </div>
+      <div class="right">
+        <p class="kide">Kides Clothes</p>
+        <h1 class="title">Multicolor Girls Two-piece outfits</h1>
+        <p>Girls Heart Print Ruffle Trim Tee & Belted Shorts , Four Colors are Available. </p>
+        <div class="price-line">
+          <h1 class="price">$ <span>22.5</span></h1>
+          <span class="num">10%</span>
+        </div>
+        <p><del>$25.00</del></p>
+        <div class="line">
+          <div class="add">
+            <i class='bx bx-minus'></i>
+            <h3>0</h3>
+            <i class='bx bx-plus'></i>
+          </div>
+          <button class="butt">Add to Cart</button>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
